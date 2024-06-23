@@ -1,5 +1,8 @@
 const mongoose=require('mongoose');
-DeviceMotionEvent.config();
+
+const dotenv=require('dotenv');
+
+dotenv.config();
 const DB_NAME=process.env.DB_NAME;
 const MONGO_DB_SRV=process.env.MONGO_DB_SRV;
 
